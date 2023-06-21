@@ -1,4 +1,4 @@
-This file briefly describes the steps to train/predict NER entities for LitCoinNLP Phase 1 Chanllege based on fine-tuned BERT-variant models.
+This file briefly describes the steps to train/predict PICO entities.
 1. Create virtual environment using conda.
 $ conda create -n litcoin python=3.7
 $ conda activate litcoin
@@ -18,6 +18,6 @@ $ pip install seqeval
 5. Install tensorboardX
 $ pip install tensorboardX
 
-6. config test_litcoin_ner.py for input data dir, model dir, and output data dir.
+6. config PICO_ner.py for input data dir, model dir, and output data dir.
 
-7. Run test_litcoin_ner.py to train the model and predict on the test dataset.
+7. Run PICO_ner.py to train the model and predict on the test dataset.
